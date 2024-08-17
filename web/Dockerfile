@@ -17,7 +17,7 @@ RUN if [ -n "$KEY" ]; then curl \
     fi
 
 
-FROM nginx:1.20.1
+FROM nginx:1.26.2
 
 EXPOSE 8080
 
